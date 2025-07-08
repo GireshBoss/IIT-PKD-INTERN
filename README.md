@@ -30,8 +30,22 @@ Due to handling challenges with the small die on a vacuum chuck, custom **stainl
 - **250 µm hole diameter**
 - **500 µm hole diameter**
 
-📁 Folder: `Project-1-GaN-HEMT-Die/Stainless-Steel-Carrier/`
+📁 Folder: `Project_1_CGHV60040D/Stainless-Steel-Carrier/`
 
+The masking making process is described as follows.
+
+1) The mask was ordered and made by PCBPower.
+2) The mask design in done using python using the module 'phidl' (should be installed seperately using 'pip'). The python file is also included.
+3) Install 'Svg2Shenzhen'
+4) The python file generates a '.svg' file.
+5) To convert the '.svg' file to 'gerber' format, a instruction manual is attached.
+6) The 'gerber' file is submitted to PCBPower, for manufacturing.
+   
+📎 **['.svg' to 'gerber' Conversion Instructions](Project_1_CGHV60040D/Stainless_Steel_Carrier/svg2gerber.pdf)**
+
+📎 **Softwares Required**
+1) Inkscape
+2) Kikad
 ---
 
 ### 📊 3. DC Probing & Measurements

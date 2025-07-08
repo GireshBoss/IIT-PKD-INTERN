@@ -55,8 +55,9 @@ The Output Characteristics (Id-Vd), and the Transfer Characteristics (Id-Vg) wer
 **It is to be noted that the, DUT was not tested for its full potential, as the maximum measureable drain current was 100mA(0.1A).**
 But the device was capable of producing 3.2A of current.
 The collected data is available in CSV format.
+The Measurement procedure used in given in detail in 'DC_Measurements.pptx
 
-📄 **[Download DC Measurements CSV](Project-1-GaN-HEMT-Die/DC-Measurements/measurements.csv)**
+📄 **[Download DC Measurements CSV](Project_1_CGHV60040D/DC_Measurements/DC_Measurements.pptx)**
 
 ---
 

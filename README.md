@@ -60,7 +60,12 @@ The Measurement procedure used in given in detail in 'DC_Measurements.pptx
 📄 **[Download DC Measurements CSV](Project_1_CGHV60040D/DC_Measurements/DC_Measurements.pptx)**
 
 ---
+### Note ###
+The applications where the CGHV60040D Die, was used is also given in 'Application.pptx'
 
+📎 **[Applications](Project_1_CGHV60040D/Application.pptx)**
+
+---
 ## 📁Project 2: Maury 2640D Slide Screw Tuner Simulation & Modeling
 
 ### 📡 Overview

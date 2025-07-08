@@ -16,7 +16,7 @@ This project involves the characterization of a **commercial GaN/HEMT die**, the
 
 The initial step was to collect the die's physical dimensions (cross sectional dimensions) using available documentation. A PowerPoint file summarizing the dimensions is included. The PowerPoint file also includes the reference for each dimensions.
 
-📎 **[Die Dimensions PPT](/Project_1_CGHV60040D/CGHV60040D-Die.pptx)**
+📎 **[Die Dimensions PPT](./Project_1_CGHV60040D/CGHV60040D-Die.pptx)**
 
 ---
 

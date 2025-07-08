@@ -46,5 +46,50 @@ The collected data is available in CSV format.
 
 ---
 
-### 📂 Folder Structure for Project 1
+## 📁Project 2: Maury 2640D Slide Screw Tuner Simulation & Modeling
+
+### 📡 Overview
+
+This project involves the **3D electromagnetic simulation** and **machine learning modeling** of the **Maury 2640D slide screw tuner**, a precision impedance tuner used in RF testing environments, and load pull measurements.
+
+The project is divided into three phases:
+
+---
+
+### 📏 1. Physical Measurement
+
+The physical **Maury 2640D tuner** was measured manually using a Vernier Caliper to gather all critical dimensional data. These dimensions were used as input for simulation modeling.
+
+📎 **[Dimensional Data PPT](./Tuner-Dimensions.pptx)**
+
+---
+
+### 🧪 2. HFSS Simulation
+
+Using the collected measurements, the tuner was modeled and simulated in **ANSYS HFSS (Student Version)** to study its electromagnetic behavior.
+
+📁 **HFSS Design File:**
+- `Maury_Tuner_Simulation.aedt`
+
+> Note: You need **Ansys HFSS Student Version** or higher to open this file.
+
+---
+
+### 🤖 3. Regression Model for Tuner Probe Prediction
+
+A regression model was developed to **predict the probe position** of the tuner based on:
+
+- Input frequency
+- Desired VSWR (Voltage Standing Wave Ratio)
+
+This helps in automating tuner configuration for specific impedance matching tasks.
+
+📁 Files included:
+- `tuner_model.ipynb` – Jupyter Notebook with regression model code
+- `sample_dataset.csv` – Sample training/testing dataset
+
+---
+
+
+
 

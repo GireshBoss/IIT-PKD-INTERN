@@ -22,7 +22,7 @@ The initial step was to collect the die's physical dimensions (cross sectional d
 
 ### 🧰 2. Custom Stainless Steel Carrier Design
 
-The DC Probe Station in the institue, has a vacuum chuck, with a vacuum hole diameter of 2mm. But the DUT (Device Under Test) is `1.8mm x 0.8mm`, unabling us to do regular measurements. 
+The DC Probe Station in the institue, has a vacuum chuck, with an allowable die dimension 2mm and above. But the DUT (Device Under Test) is `1.8mm x 0.8mm`, unabling us to do regular measurements. 
 The vacuum chuck was itself necessary, to hold the DUT in place while probing. 
 It was necessary that the chuck was electrically grounded, since the source contact of the DUT, was under the die, with gold plating.
 Due to handling challenges with the small die on a vacuum chuck, custom **stainless steel carriers** were fabricated. Two versions were designed:

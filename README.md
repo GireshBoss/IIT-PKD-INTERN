@@ -80,7 +80,7 @@ The project is divided into three phases:
 
 The physical **Maury 2640D tuner** was measured manually using a Vernier Caliper to gather all critical dimensional data. These dimensions were used as input for simulation modeling.
 
-📎 **[Dimensional Data PPT](./Tuner-Dimensions.pptx)**
+📎 **[Dimensional Data PPT](Project_2_Tuner/2640D_Dimensions.pptx)**
 
 ---
 

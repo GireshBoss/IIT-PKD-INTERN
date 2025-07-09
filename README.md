@@ -108,7 +108,7 @@ This helps in automating tuner configuration for specific impedance matching tas
 - `tuner_model.ipynb` – Jupyter Notebook with regression model code
 - 📎 **[Tuner Model](Project_2_Tuner/Regression_Model/Tuner_Model.ipynb)**
 - `sample_dataset.csv` – Sample training/testing dataset
-- 📎 **[Tuner Model](Project_2_Tuner/Regression_Model/sample_dataset.csv)**
+- 📎 **[Sample Dataset](Project_2_Tuner/Regression_Model/sample_dataset.csv)**
 
 ---
 

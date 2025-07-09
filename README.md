@@ -91,6 +91,11 @@ Using the collected measurements, the tuner was modeled and simulated in **ANSYS
 📁 **HFSS Design File:**
 - `Maury_Tuner_Simulation.aedt`
 
+The results of the simulation, were plotted on the Smith Chart.
+
+- 📎 **[Smith Chart Image](Project_2_Tuner/SMITH_CHART.jpg)**
+- 📎 **[Smith Chart Data](Project_2_Tuner/Smith_Chart_Sample_Data.csv)**
+
 > Note: You need **Ansys HFSS Student Version** or higher to open this file.
 
 ---
@@ -108,7 +113,7 @@ This helps in automating tuner configuration for specific impedance matching tas
 - `tuner_model.ipynb` – Jupyter Notebook with regression model code
 - 📎 **[Tuner Model](Project_2_Tuner/Regression_Model/Tuner_Model.ipynb)**
 - `sample_dataset.csv` – Sample training/testing dataset
-- 📎 **[Sample Dataset](Project_2_Tuner/Regression_Model/sample_dataset.csv)**
+- 📎 **[Sample Dataset](Project_2_Tuner/Regression_Model/VSWR_Sample_Data.csv)**
 
 ---
 

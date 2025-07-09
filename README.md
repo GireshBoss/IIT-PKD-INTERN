@@ -1,6 +1,6 @@
 # IIT-PKD-INTERNSHIP
 
-This repository contains internship projects undertaken at **IIT Palakkad**. Currently, the repository includes two independent projects. Below is a detailed description.
+This repository contains internship projects undertaken at **IIT Palakkad (June 2025 - July 2025)**. Currently, the repository includes two independent projects. Below is a detailed description.
 
 ---
 

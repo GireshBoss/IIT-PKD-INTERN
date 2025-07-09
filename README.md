@@ -22,7 +22,7 @@ The initial step was to collect the die's physical dimensions (cross sectional d
 
 ### 🧰 2. Custom Stainless Steel Carrier Design
 
-The DC Probe Station in the institue, has a vacuum chuck, with a vacuum hole diameter of 2mm. But the DUT (Device Under Test) is 1.8mm x 0.8mm, unabling us to do regular measurements. 
+The DC Probe Station in the institue, has a vacuum chuck, with a vacuum hole diameter of 2mm. But the DUT (Device Under Test) is `1.8mm x 0.8mm`, unabling us to do regular measurements. 
 The vacuum chuck was itself necessary, to hold the DUT in place while probing. 
 It was necessary that the chuck was electrically grounded, since the source contact of the DUT, was under the die, with gold plating.
 Due to handling challenges with the small die on a vacuum chuck, custom **stainless steel carriers** were fabricated. Two versions were designed:
@@ -35,13 +35,13 @@ Due to handling challenges with the small die on a vacuum chuck, custom **stainl
 The masking making process is described as follows.
 
 1) The mask was ordered and made by PCBPower.
-2) The mask design in done using python using the module 'phidl' (should be installed seperately using 'pip'). The python file is also included.
-3) Install 'Svg2Shenzhen'
-4) The python file generates a '.svg' file.
-5) To convert the '.svg' file to 'gerber' format, a instruction manual is attached.
-6) The 'gerber' file is submitted to PCBPower, for manufacturing.
+2) The mask design in done using python using the module 'phidl' (should be installed seperately using `pip`). The python file is also included.
+3) Install `Svg2Shenzhen`
+4) The python file generates a `.svg` file.
+5) To convert the `.svg` file to `gerber` format, a instruction manual is attached.
+6) The `gerber` file is submitted to PCBPower, for manufacturing.
    
-📎 **['.svg' to 'gerber' Conversion Instructions](Project_1_CGHV60040D/Stainless_Steel_Carrier/svg2gerber.pdf)**
+📎 **[`.svg` to `gerber` Conversion Instructions](Project_1_CGHV60040D/Stainless_Steel_Carrier/svg2gerber.pdf)**
 
 📎 **Softwares Required**
 1) Inkscape
@@ -55,13 +55,13 @@ The Output Characteristics (Id-Vd), and the Transfer Characteristics (Id-Vg) wer
 **It is to be noted that the, DUT was not tested for its full potential, as the maximum measureable drain current was 100mA(0.1A).**
 But the device was capable of producing 3.2A of current.
 The collected data is available in CSV format.
-The Measurement procedure used in given in detail in 'DC_Measurements.pptx
+The Measurement procedure used in given in detail in `DC_Measurements.pptx`
 
 📄 **[Download DC Measurements CSV](Project_1_CGHV60040D/DC_Measurements/DC_Measurements.pptx)**
 
 ---
 ### Note ###
-The applications where the CGHV60040D Die, was used is also given in 'Application.pptx'
+The applications where the CGHV60040D Die, was used is also given in `Application.pptx`
 
 📎 **[Applications](Project_1_CGHV60040D/Application.pptx)**
 
@@ -106,7 +106,9 @@ This helps in automating tuner configuration for specific impedance matching tas
 
 📁 Files included:
 - `tuner_model.ipynb` – Jupyter Notebook with regression model code
+- 📎 **[Tuner Model](Project_2_Tuner/Regression_Model/Tuner_Model.ipynb)**
 - `sample_dataset.csv` – Sample training/testing dataset
+- 📎 **[Tuner Model](Project_2_Tuner/Regression_Model/sample_dataset.csv)**
 
 ---
 
